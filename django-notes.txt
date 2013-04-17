@@ -1,0 +1,36 @@
+Django Tutorials: 
+
+Part 1
+ 1. django.admin.py startproject <project>
+   - command to starta project
+ 2. python manage.py runserver
+   - runs the server
+ 3. Connect to postgres
+   - use django.db.backends.postgresql_psycopg2
+ 4. python manage.py startapp <model>
+   - To start a new application.
+ 5. Program the model to prepare for database. (Memorize the fields)
+ 6. Register the apps in settings.py under "INSTALLED_APPS"
+ 7. python manage.py sql polls 
+   - Allows you to create database from the model that was created.
+ 8. python manage.py syncdb
+   - syncs the database - required
+ 9. python manage.py shell
+   - pulls up a shell for django.
+
+
+
+Django Tutorials 2
+
+1. Activate the admin site by removing the admin comments on urls.py
+2. Register the model to the admin by creating a file inside Polls app admin.py
+3. Customize the admin form by putting in the fields on the table
+4. Add some filters to the fieldsets of Polls.
+5. Add Choice by adding Choice class in the admin.py of polls.
+6. Choice view may be changed by changing from admin.StackedInline to admin.TabularInline
+7. To customize the admin, add TEMPLATE_DIRS on settings.py. (Need more study on Templates)
+
+
+
+Django Tutorials 3
+1. 
